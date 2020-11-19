@@ -1,0 +1,5 @@
+1.get the username and password entered by user inside Form which will come as request parameters
+2.use Dao and getch all the rows of User table
+3.try to find the match. If entered username and password is NOT present in User table then display error message - Invalid Credentials.
+4.If match is found then extract the Role of that User. (Agent, Insured, Admin)
+5.Based on that Role, display different welcome message and afterwards display different UI
